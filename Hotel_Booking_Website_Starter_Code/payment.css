@@ -13,3 +13,35 @@ html, body{
     width: 22px;
   height: 20px;
 }
+body{
+  margin: 0px;
+  background-color: #e0e0e0;
+}
+.page-header{
+  background-color: rosybrown;
+}
+.page-footer{
+  background-color: rosybrown;
+}
+#midcontent{
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: rgb(132,136,139);
+  width: 50%;
+  height: 20%;
+}
+.content{
+  margin: 2%;
+
+}
+.pay{
+  margin: 2%;
+  border: 1px solid black;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 5px ;
+}
+

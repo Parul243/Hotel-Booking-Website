@@ -13,3 +13,18 @@ html, body{
     width: 22px;
   height: 20px;
 }
+body{
+  margin: 0px;
+  background-color: #e0e0e0;
+}
+.page-header{
+  background-color: rosybrown;
+}
+.page-footer{
+  background-color: rosybrown;
+}
+.hotel{
+  margin:2%;
+  width: 40%;;
+  background-color: rgb(132,136,139);
+}

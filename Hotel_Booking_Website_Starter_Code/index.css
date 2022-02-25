@@ -13,3 +13,32 @@ html, body{
     width: 22px;
   height: 20px;
 }
+body{
+    margin: 0px;
+    background-color: #e0e0e0;
+}
+.page-header{
+    background-color: rosybrown;
+}
+.page-footer{
+    background-color: rosybrown;
+}
+
+#city{
+
+    background-image: url("https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg");
+    height: 380px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#midcontent{
+    margin-left:15%;
+    margin-right: 15%;;
+}
+
+#citypic{    
+    padding: 4%;
+    border-radius: 25%;
+}
