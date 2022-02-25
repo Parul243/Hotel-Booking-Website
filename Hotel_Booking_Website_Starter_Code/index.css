@@ -1,0 +1,15 @@
+html, body{
+    min-height: 100%;
+}
+#logo{
+    width: 60px;
+  height: 60px;
+}
+#citypic{
+    width: 150px;
+  height: 150px;
+}
+#fpic{
+    width: 22px;
+  height: 20px;
+}
