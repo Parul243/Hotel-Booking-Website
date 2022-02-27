@@ -6,13 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detail</title>
     <link rel="stylesheet" href="detail.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <div>
-        <header class="page-header">
-            <a href="index.html"><img id="logo" src="assests\images\logo.png" alt="logo" ></a>
-            <a href="login.html" target="_self">Login</a>
-        </header>
+        <div class="navbar">
+            <header class="page-header">
+                <a href="index.html"><img id="logo" src="assests\images\logo.png" alt="logo" ></a>
+                <a id="login" href="login.html" target="_self">Login</a>
+            </header>
+        </div>
         <div>
             <img id="hotelpic" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="">
             
@@ -39,22 +43,26 @@
             <P>5 Star</P>
             <p>AMENITIES</p>
             <ul>
-                <li>Room servic</li>
+                <li>Room service</li>
                 <li>Restaurant</li>
                 <li>Business center</li>
                 <li>Fitness center</li>
                 <li>Pool</li>
             </ul>
-            <h5>DESCRIPTION</h5>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores et obcaecati provident perspiciatis quaerat! Eius odit facilis officia neque doloremque at aspernatur perferendis excepturi corporis. Maiores delectus numquam laborum nobis.</p>
-        
+            <div class="descp">
+                <h5>DESCRIPTION</h5>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores et obcaecati provident perspiciatis quaerat! Eius odit facilis officia neque doloremque at aspernatur perferendis excepturi corporis. Maiores delectus numquam laborum nobis.</p>
+            </div>
         </div>
         <footer class="page-footer">
-            <p><a href="contact.html" target="_self">Contact Us</a></p>
-            <a id="fpic" href="https://www.facebook.com" target="_blank"><img src="assests/images/facebook.png" alt="" height="20px" width="22px"></a>
-            <a id="fpic" href="https://www.instagram.com" target="_blank"><img src="assests/images/instagram.png" alt="" height="20px" width="22px"></a>
-            <a id="fpic" href="https://www.twitter.com" target="_blank"><img src="assests/images/twitter.png" alt="" height="20px" width="22px"></a>
-            <p> &copy; 2020 ROOM SEARCH PVT. LTD</p>
+            <ul class="foot">
+                <p><a id="contact" href="contact.html" target="_self">Contact Us</a></p>
+                <div><a class="fpic" href="https://www.facebook.com" target="_blank"><img src="assests/images/facebook.png" alt="" height="20px" width="22px"></a>
+                <a class="fpic" href="https://www.instagram.com" target="_blank"><img src="assests/images/instagram.png" alt="" height="20px" width="22px"></a>
+                <a class="fpic" href="https://www.twitter.com" target="_blank"><img src="assests/images/twitter.png" alt="" height="20px" width="22px"></a> 
+                </div>
+                <p id="copyright"> &copy; 2020 ROOM SEARCH PVT. LTD</p> 
+            </ul>
         </footer>
     </div>
 </body>

@@ -1,33 +1,95 @@
 html, body{
     min-height: 100%;
+    font-family: 'Ubuntu', sans-serif;
 }
 #logo{
     width: 60px;
   height: 60px;
 }
+
+#city{
+    margin-left: 37%;
+    margin-top: 15%;
+    width: 400px;
+    height: 27px;
+    border-radius: 5px;
+    border: 0 solid #f1f1f1 ;
+    background-color: #f1f1f1;
+}
+#view{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    text-align: center;
+}
+
 #citypic{
     width: 150px;
-  height: 150px;
+    height: 150px;
+    padding: 4%;
+    padding-bottom: 2%;
+    border-radius: 25%;
 }
-#fpic{
+.fpic{
     width: 22px;
-  height: 20px;
+    height: 20px;
 }
 body{
     margin: 0px;
     background-color: #e0e0e0;
 }
-.page-header{
-    background-color: rosybrown;
+.navbar{
+    position: fixed;
+    width: 100%;
+
 }
+.page-header{
+
+    background-color: rosybrown;
+    width: 100%;
+    overflow: auto;
+    
+}
+.navbar a{
+    float: left;
+    padding: 20px;
+    margin: auto;
+}
+#login{
+    text-decoration: none;
+    color: black;
+}
+
 .page-footer{
     background-color: rosybrown;
+    width: 100%;
+    bottom: 0;
+    position: sticky;
 }
 
+ul{
+    list-style-type: none;
+    display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ul #contact{
+    float: left;
+    text-decoration: none;
+    color: black;
+}
+ul #copyright{
+    text-align: center;
+    text-decoration: none;
+}
+ul div{
+    float: right;
+}
 .search{
-
     background-image: url("https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg");
-    height: 380px;
+    height: 420px;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -35,10 +97,6 @@ body{
 }
 #midcontent{
     margin-left:15%;
-    margin-right: 15%;;
-}
-
-#citypic{    
-    padding: 4%;
-    border-radius: 25%;
+    margin-right: 15%;
+    text-align: center;
 }
