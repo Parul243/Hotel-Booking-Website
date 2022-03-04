@@ -1,16 +1,24 @@
-html, body{
+body{
     min-height: 100%;
     font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
+    background-color: #e0e0e0;
 }
 #logo{
     width: 60px;
-  height: 60px;
+    height: 60px;
 }
 
 #city{
-    margin-left: 37%;
-    margin-top: 15%;
+    /* margin-left: 37%;
+    margin-top: 15%; */
+    left: 50%;
+    bottom: 55%;
     width: 400px;
+    
+    position: absolute;
+    transform: translate(-50%,-50%);
+    margin-bottom: 50px;
     height: 27px;
     border-radius: 5px;
     border: 0 solid #f1f1f1 ;
@@ -20,27 +28,87 @@ html, body{
     text-decoration: none;
     color: black;
     width: 100%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
+/* .container1{
+    width: 150px;
+    height: 150;
+} */
+.citypic{
+    filter:drop-shadow(5px 5px 10px black);
+    /* box-shadow: gray  10px 10px 10px; */
+}
+#new-delhi{
+    display: block;
+}
+/* .newdelhi-text{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.3s;
+    color: white;
+  } */
+  .middle {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+#new-delhi:hover .citypic{
+    opacity: 0.5;
+}
+#new-delhi:hover .middle {
+    opacity: 1;
+  }
+    
+.newdelhi-text:hover{
+    opacity: 1;
+    color: white;
+    background-color: blur;
 
-#citypic{
+}    
+
+#midcontent .citypic{
     width: 150px;
     height: 150px;
+    margin-top: 50px;
     padding: 4%;
     padding-bottom: 2%;
     border-radius: 25%;
 }
+#midcontent{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4px 0;
+    text-align: center;
+}
+
+
 .fpic{
     width: 22px;
     height: 20px;
 }
-body{
-    margin: 0px;
-    background-color: #e0e0e0;
-}
+
 .navbar{
     position: fixed;
     width: 100%;
+    display: flex;
 
 }
 .page-header{
@@ -70,10 +138,10 @@ body{
 ul{
     list-style-type: none;
     display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 ul #contact{
     float: left;
@@ -95,8 +163,9 @@ ul div{
     background-repeat: no-repeat;
     background-size: cover;
 }
-#midcontent{
-    margin-left:15%;
-    margin-right: 15%;
-    text-align: center;
-}
+
+/* #midcontent .citypic{
+    margin-left:30%;
+    margin-right: 30%;   
+    text-align: center;  
+}  */

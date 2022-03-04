@@ -9,8 +9,10 @@ body{
   height: 60px;
 }
 #hotelpic1, #hotelpic2,#hotelpic3{
-    width: 150px;
-  height: 150px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    ;
 }
 
 .hotel,.hotel1{
@@ -62,18 +64,24 @@ li a{
   width: 100%;
 }
 
-.hotel,.hotel1{
+.hotel{
   margin-top: 2%;
   margin-left:4%;
   margin-right:4%;
   margin-bottom: 4%;
   width: 40%;
-  background-color: rgb(132,136,139);
+  background-color: lightgray;
   text-decoration: none;
   color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  justify-content: space-between;
 }
-.hotel1{
-  margin-bottom: 100px;
+.detail1 p{
+  display: flex;
+  flex-wrap: wrap;
+
 }
 .page-footer{
   background-color: rosybrown;
